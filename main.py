@@ -26,30 +26,6 @@ Usuarios.append(Usuario('mariodoctor', 'Mario', 'Moran', '11-01-2002', True, '12
 Usuarios.append(Usuario('marioenfermera', 'Angela', 'Hernandez', '20-05-2001', False, '12345678', '4562 8391', 2, ''))
 
 Medicamentos.append(Medicamento(1000, 'Aspirina', 50.00, 'Pastillas para el dolor', 50))
-Medicamentos.append(Medicamento(999, 'Aspirina 2', 60.00, 'Pastillas para el dolor', 80))
-Medicamentos.append(Medicamento(998, 'Aspirina 3', 15.00, 'Pastillas para el dolor', 10))
-Medicamentos.append(Medicamento(997, 'Aspirina 4', 15.00, 'Pastillas para el dolor', 10))
-Medicamentos.append(Medicamento(996, 'Aspirina 5', 15.00, 'Pastillas para el dolor', 10))
-
-MedicinasP = []
-medici = {
-    'idMedicina': 999,
-    'nombre': 'Aspirina',
-    'precio': 50.00,
-    'cantidad': 2,
-    'subtotal': 100.00
-}
-MedicinasP.append(medici)
-medici = {
-    'idMedicina': 1000,
-    'nombre': 'Aspirina 2',
-    'precio': 60.00,
-    'cantidad': 5,
-    'subtotal': 350.00
-}
-MedicinasP.append(medici)
-Pedido(3000, 'mariopaciente', MedicinasP, 450)
-Pedidos.append(Pedido)
 
 Citas.append(Cita(2000, 'mariopaciente', '06-11-2021', '14:00', 'Dolores de cuerpo serveros. Cansancio y presión alta', 'Pendiente', ''))
 
